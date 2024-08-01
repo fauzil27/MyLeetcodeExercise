@@ -1,0 +1,13 @@
+{
+  "name": "diya0015",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "tsc": "rm -rf ./build && tsc -w",
+    "dev": "node ./build/index.js "
+  }
+}
