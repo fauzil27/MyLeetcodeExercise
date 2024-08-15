@@ -3,10 +3,8 @@ function hIndex(citations: number[]) {
   let result = 0;
   for (let i = 0; i < citations.length; i++) {
     console.log(arr[i], i + 1);
-    if (arr[i] >= i + 1) {
-      if (arr[i] > 0) {
-        result = i + 1;
-      }
+    if (arr[i] >= i + 1 && arr[i] > 0) {
+      result = i + 1;
     }
   }
   return result;
