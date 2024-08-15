@@ -9,8 +9,6 @@ interface ListNode {
   next: ListNode | null;
 }
 
-// let head = [3, 0, 2, 6, 8, 1, 7, 9, 4, 2, 5, 5, 0];
-
 function coverter(arr: number[]) {
   var list = null;
   for (let i = arr.length - 1; i >= 0; i--) {
